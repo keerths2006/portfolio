@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Skills - Keerthana Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<div class="navbar">
+    <div style="font-size: 1.2em; font-weight: bold;">Keerthana S</div>
+    <div class="nav-butoons">
+      
+      <a href="index.html" class="nav-btn">Home</a>
+      <a href="aboutme.html "class="nav-btn">About me</a>
+      <a href="skills.html"class="nav-btn">Skills</a>
+      <a href="exp.html"class="nav-btn">Experience</a>
+      <a href="contact.html"class="nav-btn">Contact me</a>
+    </div>
+  </div>
+  <style>
+  .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 40px;
+      background-color: rgba(0, 0, 0, 0.8);
+    }
+    
+</style>
+
+  
+  
+</head>
+     
+  
+  <style>
+ 
+.nav-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.nav-btn {
+  background-color:#6c466d;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.nav-btn:hover {
+  background-color: #9e74a0;
+}
+</style>
+
+<body>
+
+  <section class="skills-section">
+    <h1 class="skills-title">Skills</h1>
+
+    <div class="skills-grid">
+
+      <div class="skill-box">
+        <h2>Web Development</h2>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>Arduino IDE</li>
+        </ul>
+      </div>
+
+      <div class="skill-box">
+        <h2>Programming Language</h2>
+        <ul>
+          <li>C</li>
+          <li>C++</li>
+          <li>Python</li>
+        </ul>
+      </div>
+
+      <div class="skill-box">
+        <h2>Soft Skills</h2>
+        <ul>
+          <li>Team Work</li>
+          <li>Leadership</li>
+          <li>Problem Solving</li>
+        </ul>
+      </div>
+
+      <div class="skill-box">
+        <h2>Design</h2>
+        <ul>
+          <li>Web Design</li>
+          <li>Photoshop</li>
+          <li>Canva</li>
+          <li>UI/UX</li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+  
+  
+  
+  <style>
+ body
+  {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-image: url("images/bg.jpeg"); /* Replace with your actual image */
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.skills-section {
+  padding: 60px 20px;
+  background-color: rgba(0, 0, 0, 0.6); /* Optional overlay */
+}
+
+.skills-title {
+  text-align: center;
+  font-size: 2.5em;
+  margin-bottom: 40px;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 30px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.skill-box {
+  background-color: rgba(145, 94, 142, 0.7);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(139, 86, 160, 0.3);
+}
+
+.skill-box h2 {
+  font-size: 1.4em;
+  margin-bottom: 15px;
+  border-bottom: 1px solid white;
+  padding-bottom: 5px;
+}
+
+.skill-box ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.skill-box ul li {
+  margin-bottom: 10px;
+}
+
+</style>
+<style>
+
+   
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Animate each box */
+.skill-box {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+  opacity: 0;
+  transform: translateY(30px);
+  animation: fadeInUp 1s ease forwards;
+}
+
+/* Add delay for staggered animation */
+.skill-box:nth-child(1) { animation-delay: 0.3s; }
+.skill-box:nth-child(2) { animation-delay: 0.6s; }
+.skill-box:nth-child(3) { animation-delay: 0.9s; }
+.skill-box:nth-child(4) { animation-delay: 1.2s; }
+
+</style>
+</html>
